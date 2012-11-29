@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D879D2A1667730E00815258 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D879D291667730E00815258 /* UIKit.framework */; };
+		3D879D2C1667730E00815258 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D879D2B1667730E00815258 /* Foundation.framework */; };
+		3D879D2E1667730E00815258 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D879D2D1667730E00815258 /* CoreGraphics.framework */; };
+		3D879D341667730E00815258 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D879D321667730E00815258 /* InfoPlist.strings */; };
+		3D879D361667730E00815258 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D879D351667730E00815258 /* main.m */; };
+		3D879D3A1667730E00815258 /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D879D391667730E00815258 /* RTAppDelegate.m */; };
+		3D879D3C1667730E00815258 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D879D3B1667730E00815258 /* Default.png */; };
+		3D879D3E1667730E00815258 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D879D3D1667730E00815258 /* Default@2x.png */; };
+		3D879D401667730E00815258 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D879D3F1667730E00815258 /* Default-568h@2x.png */; };
+		3D879D431667730E00815258 /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D879D421667730E00815258 /* RTViewController.m */; };
+		3D879D461667730E00815258 /* RTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D879D441667730E00815258 /* RTViewController.xib */; };
+		3D879D4F1667736C00815258 /* easy_song1_level1.mtx in Resources */ = {isa = PBXBuildFile; fileRef = 3D879D4D1667736C00815258 /* easy_song1_level1.mtx */; };
+		3D879D501667736C00815258 /* funnybunny_game.aac in Resources */ = {isa = PBXBuildFile; fileRef = 3D879D4E1667736C00815258 /* funnybunny_game.aac */; };
+		3D879D531667737E00815258 /* MTXParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D879D521667737E00815258 /* MTXParser.m */; };
+		3D879D551667777000815258 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D879D541667777000815258 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D879D251667730E00815258 /* RithmicTouches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RithmicTouches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D879D291667730E00815258 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D879D2B1667730E00815258 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D879D2D1667730E00815258 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D879D311667730E00815258 /* RithmicTouches-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RithmicTouches-Info.plist"; sourceTree = "<group>"; };
+		3D879D331667730E00815258 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D879D351667730E00815258 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D879D371667730E00815258 /* RithmicTouches-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RithmicTouches-Prefix.pch"; sourceTree = "<group>"; };
+		3D879D381667730E00815258 /* RTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
+		3D879D391667730E00815258 /* RTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
+		3D879D3B1667730E00815258 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3D879D3D1667730E00815258 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3D879D3F1667730E00815258 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3D879D411667730E00815258 /* RTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTViewController.h; sourceTree = "<group>"; };
+		3D879D421667730E00815258 /* RTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTViewController.m; sourceTree = "<group>"; };
+		3D879D451667730E00815258 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RTViewController.xib; sourceTree = "<group>"; };
+		3D879D4D1667736C00815258 /* easy_song1_level1.mtx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = easy_song1_level1.mtx; sourceTree = "<group>"; };
+		3D879D4E1667736C00815258 /* funnybunny_game.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = funnybunny_game.aac; sourceTree = "<group>"; };
+		3D879D511667737E00815258 /* MTXParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTXParser.h; sourceTree = "<group>"; };
+		3D879D521667737E00815258 /* MTXParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTXParser.m; sourceTree = "<group>"; };
+		3D879D541667777000815258 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D879D221667730E00815258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D879D551667777000815258 /* AVFoundation.framework in Frameworks */,
+				3D879D2A1667730E00815258 /* UIKit.framework in Frameworks */,
+				3D879D2C1667730E00815258 /* Foundation.framework in Frameworks */,
+				3D879D2E1667730E00815258 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D879D1A1667730E00815258 = {
+			isa = PBXGroup;
+			children = (
+				3D879D4C1667734C00815258 /* resources */,
+				3D879D2F1667730E00815258 /* src */,
+				3D879D281667730E00815258 /* Frameworks */,
+				3D879D261667730E00815258 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D879D261667730E00815258 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D879D251667730E00815258 /* RithmicTouches.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D879D281667730E00815258 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D879D541667777000815258 /* AVFoundation.framework */,
+				3D879D291667730E00815258 /* UIKit.framework */,
+				3D879D2B1667730E00815258 /* Foundation.framework */,
+				3D879D2D1667730E00815258 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D879D2F1667730E00815258 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				3D879D511667737E00815258 /* MTXParser.h */,
+				3D879D521667737E00815258 /* MTXParser.m */,
+				3D879D381667730E00815258 /* RTAppDelegate.h */,
+				3D879D391667730E00815258 /* RTAppDelegate.m */,
+				3D879D411667730E00815258 /* RTViewController.h */,
+				3D879D421667730E00815258 /* RTViewController.m */,
+				3D879D441667730E00815258 /* RTViewController.xib */,
+				3D879D301667730E00815258 /* Supporting Files */,
+			);
+			name = src;
+			path = RithmicTouches;
+			sourceTree = "<group>";
+		};
+		3D879D301667730E00815258 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D879D311667730E00815258 /* RithmicTouches-Info.plist */,
+				3D879D321667730E00815258 /* InfoPlist.strings */,
+				3D879D351667730E00815258 /* main.m */,
+				3D879D371667730E00815258 /* RithmicTouches-Prefix.pch */,
+				3D879D3B1667730E00815258 /* Default.png */,
+				3D879D3D1667730E00815258 /* Default@2x.png */,
+				3D879D3F1667730E00815258 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D879D4C1667734C00815258 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D879D4D1667736C00815258 /* easy_song1_level1.mtx */,
+				3D879D4E1667736C00815258 /* funnybunny_game.aac */,
+			);
+			name = resources;
+			path = RithmicTouches/resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D879D241667730E00815258 /* RithmicTouches */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D879D491667730E00815258 /* Build configuration list for PBXNativeTarget "RithmicTouches" */;
+			buildPhases = (
+				3D879D211667730E00815258 /* Sources */,
+				3D879D221667730E00815258 /* Frameworks */,
+				3D879D231667730E00815258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RithmicTouches;
+			productName = RithmicTouches;
+			productReference = 3D879D251667730E00815258 /* RithmicTouches.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D879D1C1667730E00815258 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Darío Antequera";
+			};
+			buildConfigurationList = 3D879D1F1667730E00815258 /* Build configuration list for PBXProject "RithmicTouches" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D879D1A1667730E00815258;
+			productRefGroup = 3D879D261667730E00815258 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D879D241667730E00815258 /* RithmicTouches */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D879D231667730E00815258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D879D341667730E00815258 /* InfoPlist.strings in Resources */,
+				3D879D3C1667730E00815258 /* Default.png in Resources */,
+				3D879D3E1667730E00815258 /* Default@2x.png in Resources */,
+				3D879D401667730E00815258 /* Default-568h@2x.png in Resources */,
+				3D879D461667730E00815258 /* RTViewController.xib in Resources */,
+				3D879D4F1667736C00815258 /* easy_song1_level1.mtx in Resources */,
+				3D879D501667736C00815258 /* funnybunny_game.aac in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D879D211667730E00815258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D879D361667730E00815258 /* main.m in Sources */,
+				3D879D3A1667730E00815258 /* RTAppDelegate.m in Sources */,
+				3D879D431667730E00815258 /* RTViewController.m in Sources */,
+				3D879D531667737E00815258 /* MTXParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D879D321667730E00815258 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D879D331667730E00815258 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D879D441667730E00815258 /* RTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D879D451667730E00815258 /* en */,
+			);
+			name = RTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D879D471667730E00815258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D879D481667730E00815258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D879D4A1667730E00815258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RithmicTouches/RithmicTouches-Prefix.pch";
+				INFOPLIST_FILE = "RithmicTouches/RithmicTouches-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D879D4B1667730E00815258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RithmicTouches/RithmicTouches-Prefix.pch";
+				INFOPLIST_FILE = "RithmicTouches/RithmicTouches-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D879D1F1667730E00815258 /* Build configuration list for PBXProject "RithmicTouches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D879D471667730E00815258 /* Debug */,
+				3D879D481667730E00815258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D879D491667730E00815258 /* Build configuration list for PBXNativeTarget "RithmicTouches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D879D4A1667730E00815258 /* Debug */,
+				3D879D4B1667730E00815258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D879D1C1667730E00815258 /* Project object */;
+}

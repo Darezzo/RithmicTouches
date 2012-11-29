@@ -1,0 +1,33 @@
+MFile 1 2 480
+MTrk
+0 Meta SeqName "easy_1"
+0 Tempo 400000
+0 TimeSig 4/4 24 8
+0 Meta TrkEnd
+TrkEnd
+MTrk
+0 Meta TrkName "MIDI 01"
+7680 On ch=1 n=c6 v=83
+7819 Off ch=1 n=c6 v=64
+11520 On ch=1 n=c6 v=83
+11676 Off ch=1 n=c6 v=64
+15360 On ch=1 n=c6 v=83
+15529 Off ch=1 n=c6 v=64
+19200 On ch=1 n=c6 v=78
+19325 Off ch=1 n=c6 v=64
+21120 On ch=1 n=c5 v=69
+21276 Off ch=1 n=c5 v=64
+23040 On ch=1 n=c6 v=66
+23231 Off ch=1 n=c6 v=64
+26880 On ch=1 n=c6 v=69
+27054 Off ch=1 n=c6 v=64
+30720 On ch=1 n=c7 v=83
+30905 Off ch=1 n=c7 v=64
+34560 On ch=1 n=c6 v=73
+34743 Off ch=1 n=c6 v=64
+38400 On ch=1 n=c5 v=83
+38549 Off ch=1 n=c5 v=64
+42240 On ch=1 n=c6 v=69
+42365 Off ch=1 n=c6 v=64
+42365 Meta TrkEnd
+TrkEnd
